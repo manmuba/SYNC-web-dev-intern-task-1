@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing Page</title>
+
+        <!-- ==== STYLE.CSS ==== -->
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <!-- ====  REMIXICON CDN ==== -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+        <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- ==== HEADER ==== -->
+        <header class="container header">
+            <!-- ==== NAVBAR ==== -->
+            <nav class="nav">
+                <div class="logo">
+                    <h2>5K1PP3R</h2>
+                </div>
+
+                <div class="nav_menu" id="nav_menu">
+                    <button class="close_btn" id="close_btn">
+                        <i class="ri-close-fill"></i>
+                    </button>
+
+                    <ul class="nav_menu_list">
+                        <li class="nav_menu_item">
+                            <a href="#dev" class="nav_menu_link">Developers</a>
+                        </li>
+                        <li class="nav_menu_item">
+                            <a href="#des" class="nav_menu_link">Designe</a>
+                        </li>
+                        <li class="nav_menu_item">
+                            <a href="#doc" class="nav_menu_link">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="toggle_btn" id="toggle_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </nav>
+        </header>
+
+        <section class="wrapper">
+            <div class="container">
+                <div class="grid-cols-2">
+                    <div class="grid-item-1">
+                        <h1 class="main-heading">
+                            Welcome to <span>5K1PP3R</span>
+                            <br />
+                        </h1>
+                        <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        <div class="btn_wrapper">
+                            <a href="#v" class="btn view_more_btn">View <i class="ri-arrow-right-line"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="grid-item-2">
+                        <div class="team_img_wrapper">
+                            <img src="./img/team.svg" alt="team-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper" id="v">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="grid-cols-3">
+                    <div class="grid-col-item">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.o  rg/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="featured_info">
+                            <a href="#dev"><span>Built for developers </span></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="grid-col-item">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="featured_info">
+                            <a href="#des"><span>Designed to be modern</span></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum esse corrupti. Quo, labore debitis!</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-col-item">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                        </div>
+                        <div class="featured_info">
+                            <a href="#doc"><span>Documentation for everything</span></a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nostrum voluptate totam ipsa corrupti vero!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper" id="dev">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Built for developers</h1>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas integer eget. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Maecenas pharetra convallis posuere morbi leo urna. Arcu dui vivamus arcu felis bibendum. Est ante in nibh mauris cursus. Lacinia quis vel eros donec ac odio tempor orci. Vitae aliquet nec ullamcorper sit. Auctor neque vitae tempus quam pellentesque. Neque gravida in fermentum et. Sapien et ligula ullamcorper malesuada proin libero nunc. Congue mauris rhoncus aenean vel elit scelerisque. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Nulla facilisi etiam dignissim diam quis enim. Neque ornare aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. In hac habitasse platea dictumst quisque. Orci a scelerisque purus semper eget duis at tellus at. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Morbi leo urna molestie at elementum eu facilisis. Placerat duis ultricies lacus sed turpis tincidunt id. Pretium aenean pharetra magna ac placerat vestibulum. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Ornare quam viverra orci sagittis. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Aliquam nulla facilisi cras fermentum odio eu. Gravida in fermentum et sollicitudin ac. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Eget felis eget nunc lobortis mattis aliquam. Urna neque viverra justo nec ultrices dui sapien eget mi. Lacus viverra vitae congue eu consequat ac felis donec et. Cum sociis natoque penatibus et. Malesuada nunc vel risus commodo viverra. Rhoncus urna neque viverra justo nec. Id neque aliquam vestibulum morbi. Neque sodales ut etiam sit. Lectus proin nibh nisl condimentum id venenatis a. Praesent elementum facilisis leo vel fringilla est. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Vel facilisis volutpat est velit. Lacinia quis vel eros donec ac odio tempor. Vulputate enim nulla aliquet porttitor. Curabitur vitae nunc sed velit dignissim sodales ut.</p>
+            </div>
+        </section>
+        <section class="wrapper" id="des">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Designed to be modern</h1>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas integer eget. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Maecenas pharetra convallis posuere morbi leo urna. Arcu dui vivamus arcu felis bibendum. Est ante in nibh mauris cursus. Lacinia quis vel eros donec ac odio tempor orci. Vitae aliquet nec ullamcorper sit. Auctor neque vitae tempus quam pellentesque. Neque gravida in fermentum et. Sapien et ligula ullamcorper malesuada proin libero nunc. Congue mauris rhoncus aenean vel elit scelerisque. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Nulla facilisi etiam dignissim diam quis enim. Neque ornare aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. In hac habitasse platea dictumst quisque. Orci a scelerisque purus semper eget duis at tellus at. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Morbi leo urna molestie at elementum eu facilisis. Placerat duis ultricies lacus sed turpis tincidunt id. Pretium aenean pharetra magna ac placerat vestibulum. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Ornare quam viverra orci sagittis. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Aliquam nulla facilisi cras fermentum odio eu. Gravida in fermentum et sollicitudin ac. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Eget felis eget nunc lobortis mattis aliquam. Urna neque viverra justo nec ultrices dui sapien eget mi. Lacus viverra vitae congue eu consequat ac felis donec et. Cum sociis natoque penatibus et. Malesuada nunc vel risus commodo viverra. Rhoncus urna neque viverra justo nec. Id neque aliquam vestibulum morbi. Neque sodales ut etiam sit. Lectus proin nibh nisl condimentum id venenatis a. Praesent elementum facilisis leo vel fringilla est. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Vel facilisis volutpat est velit. Lacinia quis vel eros donec ac odio tempor. Vulputate enim nulla aliquet porttitor. Curabitur vitae nunc sed velit dignissim sodales ut.</p>
+            </div>
+        </section>
+        <section class="wrapper" id="doc">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Documentation for everything</h1>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis egestas integer eget. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Maecenas pharetra convallis posuere morbi leo urna. Arcu dui vivamus arcu felis bibendum. Est ante in nibh mauris cursus. Lacinia quis vel eros donec ac odio tempor orci. Vitae aliquet nec ullamcorper sit. Auctor neque vitae tempus quam pellentesque. Neque gravida in fermentum et. Sapien et ligula ullamcorper malesuada proin libero nunc. Congue mauris rhoncus aenean vel elit scelerisque. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Nulla facilisi etiam dignissim diam quis enim. Neque ornare aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. In hac habitasse platea dictumst quisque. Orci a scelerisque purus semper eget duis at tellus at. Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Morbi leo urna molestie at elementum eu facilisis. Placerat duis ultricies lacus sed turpis tincidunt id. Pretium aenean pharetra magna ac placerat vestibulum. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Ornare quam viverra orci sagittis. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Aliquam nulla facilisi cras fermentum odio eu. Gravida in fermentum et sollicitudin ac. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Eget felis eget nunc lobortis mattis aliquam. Urna neque viverra justo nec ultrices dui sapien eget mi. Lacus viverra vitae congue eu consequat ac felis donec et. Cum sociis natoque penatibus et. Malesuada nunc vel risus commodo viverra. Rhoncus urna neque viverra justo nec. Id neque aliquam vestibulum morbi. Neque sodales ut etiam sit. Lectus proin nibh nisl condimentum id venenatis a. Praesent elementum facilisis leo vel fringilla est. Lobortis elementum nibh tellus molestie nunc non blandit massa enim. Vel facilisis volutpat est velit. Lacinia quis vel eros donec ac odio tempor. Vulputate enim nulla aliquet porttitor. Curabitur vitae nunc sed velit dignissim sodales ut.</p>
+            </div>
+        </section>
+
+        <footer></footer>
+
+        <!-- ==== ANIMATE ON SCROLL JS CDN -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- ==== GSAP CDN ==== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <!-- ==== SCRIPT.JS ==== -->
+        <script src="./script.js" defer></script>
+    </body>
+</html>
